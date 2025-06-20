@@ -1,56 +1,33 @@
-window.addEventListener("DOMContentLoaded", function () {
-  fetch("paintings.json")
-    .then(response => response.json())
-    .then(data => {
-      const list = document.querySelector("#paintings ul");
-      const title = document.querySelector("#title");
-      const artist = document.querySelector("#artist");
-      const full = document.querySelector("#full");
-      const descriptionBox = document.querySelector("#description");
-      const details = document.getElementById("details");
+fetch('paintings.json')
+  .then(response => response.json())
+  .then(paintings => {
+    const list = document.querySelector("#paintings ul");
+    const title = document.getElementById("title");
+    const artist = document.getElementById("artist");
+    const museum = document.getElementById("museum");
+    const full = document.getElementById("full");
+    const description = document.getElementById("description");
 
-      data.forEach(painting => {
-        const li = document.createElement("li");
-        const img = document.createElement("img");
-        img.src = `images/${painting.id}.jpg`;
-        img.alt = painting.title;
-        img.dataset.id = painting.id;
-        li.appendChild(img);
-        list.appendChild(li);
+    paintings.forEach(p => {
+      const li = document.createElement("li");
+      const thumb = document.createElement("img");
+      thumb.src = `small/${p.id}.jpg`;
+      thumb.alt = p.title;
+      li.appendChild(thumb);
+      li.addEventListener("click", () => {
+        title.textContent = p.title;
+        artist.textContent = `By ${p.artist} (${p.year})`;
+        museum.textContent = p.museum;
+        full.src = `large/${p.id}.jpg`;
+        full.alt = p.title;
+
+        description.innerHTML = '';
+        p.features.forEach(f => {
+          const para = document.createElement("p");
+          para.textContent = f.description;
+          description.appendChild(para);
+        });
       });
-
-      list.addEventListener("click", function (e) {
-        if (e.target.tagName === "IMG") {
-          const selectedId = e.target.dataset.id;
-          const selected = data.find(p => p.id === selectedId);
-
-          title.textContent = `${selected.title} (${selected.year})`;
-          artist.textContent = selected.artist;
-          full.src = `images/${selected.id}.jpg`;
-          full.alt = selected.title;
-
-          document.querySelectorAll(".box").forEach(box => box.remove());
-
-          selected.features.forEach(f => {
-            const box = document.createElement("div");
-            box.className = "box";
-            box.style.left = f.upperLeft[0] + "px";
-            box.style.top = f.upperLeft[1] + "px";
-            box.style.width = (f.lowerRight[0] - f.upperLeft[0]) + "px";
-            box.style.height = (f.lowerRight[1] - f.upperLeft[1]) + "px";
-
-            box.addEventListener("mouseenter", () => {
-              descriptionBox.textContent = f.description;
-            });
-
-            box.addEventListener("mouseleave", () => {
-              descriptionBox.textContent = "";
-            });
-
-            details.appendChild(box);
-          });
-        }
-      });
+      list.appendChild(li);
     });
-});
-
+  });
