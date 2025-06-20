@@ -1,0 +1,38 @@
+[
+  {
+    "id": "099160",
+    "title": "The Starry Night",
+    "artist": "Vincent van Gogh",
+    "year": "1889",
+    "features": [
+      {
+        "description": "Swirling night sky",
+        "upperLeft": [300, 50],
+        "lowerRight": [500, 200]
+      },
+      {
+        "description": "Bright star",
+        "upperLeft": [550, 100],
+        "lowerRight": [600, 150]
+      }
+    ]
+  },
+  {
+    "id": "095010",
+    "title": "The Scream",
+    "artist": "Edvard Munch",
+    "year": "1893",
+    "features": [
+      {
+        "description": "The screaming figure",
+        "upperLeft": [200, 300],
+        "lowerRight": [350, 450]
+      },
+      {
+        "description": "Bridge railing",
+        "upperLeft": [100, 400],
+        "lowerRight": [600, 420]
+      }
+    ]
+  }
+]
