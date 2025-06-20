@@ -1,74 +1,65 @@
 [
   {
-    "id": "005010",
+    "file": "005010.jpg",
     "title": "Oath of the Horatii",
     "artist": "Jacques-Louis David",
     "year": "1784",
-    "description": "A powerful neoclassical painting, 'Oath of the Horatii' depicts three Roman brothers swearing loyalty to their father and the state. The painting conveys themes of sacrifice, duty, and stoicism with dramatic poses and stark lighting. David uses rigid geometry and contrast to emphasize masculine resolve over emotional softness. It is one of the most iconic symbols of civic virtue in Western art.",
-    "medium": "Oil on canvas"
+    "description": "This Neoclassical painting illustrates a story from Roman legend in which three brothers swear an oath to defend Rome."
   },
   {
-    "id": "095010",
+    "file": "095010.jpg",
     "title": "Primavera",
     "artist": "Sandro Botticelli",
     "year": "1482",
-    "description": "An allegory of spring, Botticelli's 'Primavera' bursts with classical mythological figures dancing amid blooming flora. The central figure of Venus radiates harmony, while Cupid, Mercury, and the Three Graces animate the lush scene. The painting is rich in symbolism related to fertility, renewal, and Neoplatonic ideals. It remains one of the most celebrated works of the Italian Renaissance.",
-    "medium": "Tempera on panel"
+    "description": "An allegorical celebration of spring, this painting includes several mythological figures such as Venus and the Three Graces."
   },
   {
-    "id": "099160",
+    "file": "099160.jpg",
     "title": "The School of Athens",
     "artist": "Raphael",
-    "year": "1509-1511",
-    "description": "A tribute to classical philosophy, Raphael’s 'The School of Athens' gathers great thinkers like Plato and Aristotle in a grand architectural setting. The figures are arranged in dynamic poses, engaging in lively discourse. The composition reflects Renaissance ideals of harmony, knowledge, and perspective. Raphael's masterful fresco exudes the spirit of humanistic inquiry.",
-    "medium": "Fresco"
+    "year": "1511",
+    "description": "A grand depiction of classical philosophers, including Plato and Aristotle, set in an architectural marvel."
   },
   {
-    "id": "100030",
+    "file": "100030.jpg",
     "title": "Bacchus and Ariadne",
     "artist": "Titian",
-    "year": "1522-1523",
-    "description": "This dynamic mythological painting captures Bacchus leaping from his chariot to rescue Ariadne. The scene brims with energy, color, and sensuality, showing gods and satyrs in celebration. Titian’s use of vibrant pigments and dramatic composition conveys divine love and transformation. The moment marks Ariadne’s ascent to immortality in Roman mythology.",
-    "medium": "Oil on canvas"
+    "year": "1523",
+    "description": "Depicts the god Bacchus falling in love with Ariadne at first sight, based on the mythological story."
   },
   {
-    "id": "101030",
+    "file": "101030.jpg",
     "title": "Supper at Emmaus",
     "artist": "Caravaggio",
     "year": "1601",
-    "description": "In his dramatic chiaroscuro style, Caravaggio illustrates the moment Jesus reveals himself to his disciples after resurrection. The painting captures surprise and recognition with striking realism. Caravaggio’s attention to naturalistic detail and emotional intensity enhances the spiritual message. It remains a seminal work in Baroque art history.",
-    "medium": "Oil on canvas"
+    "description": "A dramatic Baroque painting that shows the moment Jesus reveals himself after the resurrection."
   },
   {
-    "id": "104020",
+    "file": "104020.jpg",
     "title": "The Surrender of Breda",
     "artist": "Diego Velázquez",
-    "year": "1634-1635",
-    "description": "Velázquez captures a rare moment of chivalry and dignity during wartime in 'The Surrender of Breda'. The painting shows the Spanish general receiving keys from the Dutch commander with grace. It is praised for its realism, attention to military detail, and balanced composition. The work underscores Velázquez's mastery of group portraiture and historical narrative.",
-    "medium": "Oil on canvas"
+    "year": "1635",
+    "description": "Celebrates the Spanish capture of the Dutch city of Breda during the Eighty Years’ War."
   },
   {
-    "id": "105010",
+    "file": "105010.jpg",
     "title": "The Anatomy Lesson of Dr. Nicolaes Tulp",
     "artist": "Rembrandt",
     "year": "1632",
-    "description": "This portrait of Amsterdam’s guild of surgeons combines scientific study with human drama. Dr. Tulp demonstrates anatomy to a group of attentive colleagues, emphasizing education and discovery. Rembrandt’s lighting focuses our gaze and heightens the realism of the scene. It reflects the rise of empirical inquiry in the Dutch Golden Age.",
-    "medium": "Oil on canvas"
+    "description": "A group portrait showing Dr. Tulp demonstrating a dissection to fellow physicians."
   },
   {
-    "id": "105040",
+    "file": "105040.jpg",
     "title": "The Night Watch",
     "artist": "Rembrandt",
     "year": "1642",
-    "description": "A revolutionary group portrait, Rembrandt’s 'The Night Watch' animates a civic militia in a moment of purposeful motion. Unlike static depictions, it shows depth, character, and coordinated energy. Rembrandt’s use of light guides the viewer's eye and adds dramatic flair. The painting is a cornerstone of Dutch Golden Age art.",
-    "medium": "Oil on canvas"
+    "description": "One of the most famous Dutch Golden Age paintings, showing a city guard moving out."
   },
   {
-    "id": "118050",
-    "title": "Children's Games",
+    "file": "118050.jpg",
+    "title": "Children’s Games",
     "artist": "Pieter Bruegel the Elder",
     "year": "1560",
-    "description": "This sprawling scene captures over 200 children playing 80 different games in a bustling Flemish town square. Bruegel’s painting reflects his interest in everyday life and social commentary. The detailed figures offer a glimpse into 16th-century customs and amusements. It is both joyful and revealing in its documentation of childhood.",
-    "medium": "Oil on panel"
+    "description": "A lively painting depicting over 200 children engaged in nearly 80 different games."
   }
 ]
