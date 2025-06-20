@@ -4,62 +4,62 @@
     "title": "Oath of the Horatii",
     "artist": "Jacques-Louis David",
     "year": "1784",
-    "description": "A neoclassical painting of Roman brothers swearing loyalty before battle."
+    "description": "This Neoclassical painting illustrates a story from Roman legend in which three brothers swear an oath to defend Rome."
   },
   {
     "file": "095010.jpg",
     "title": "Primavera",
     "artist": "Sandro Botticelli",
     "year": "1482",
-    "description": "A lush spring scene symbolizing love, rebirth, and classical mythology."
+    "description": "An allegorical celebration of spring, this painting includes several mythological figures such as Venus and the Three Graces."
   },
   {
     "file": "099160.jpg",
-    "title": "Children’s Games",
-    "artist": "Pieter Bruegel the Elder",
-    "year": "1560",
-    "description": "A lively scene of children playing various games across town."
+    "title": "The School of Athens",
+    "artist": "Raphael",
+    "year": "1511",
+    "description": "A grand depiction of classical philosophers, including Plato and Aristotle, set in an architectural marvel."
   },
   {
     "file": "100030.jpg",
-    "title": "The School of Athens",
-    "artist": "Raphael",
-    "year": "1509–1511",
-    "description": "A grand fresco representing philosophy with central figures Plato and Aristotle."
+    "title": "Bacchus and Ariadne",
+    "artist": "Titian",
+    "year": "1523",
+    "description": "Depicts the god Bacchus falling in love with Ariadne at first sight, based on the mythological story."
   },
   {
     "file": "101030.jpg",
     "title": "Supper at Emmaus",
     "artist": "Caravaggio",
     "year": "1601",
-    "description": "Dramatic lighting captures the moment Christ reveals himself."
+    "description": "A dramatic Baroque painting that shows the moment Jesus reveals himself after the resurrection."
   },
   {
     "file": "104020.jpg",
-    "title": "Bacchus and Ariadne",
-    "artist": "Titian",
-    "year": "1522–1523",
-    "description": "Depicts the mythological moment Bacchus falls for Ariadne."
-  },
-  {
-    "file": "105010.jpg",
     "title": "The Surrender of Breda",
     "artist": "Diego Velázquez",
     "year": "1635",
-    "description": "Spanish military triumph portrayed with dignity and depth."
+    "description": "Celebrates the Spanish capture of the Dutch city of Breda during the Eighty Years’ War."
+  },
+  {
+    "file": "105010.jpg",
+    "title": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+    "artist": "Rembrandt",
+    "year": "1632",
+    "description": "A group portrait showing Dr. Tulp demonstrating a dissection to fellow physicians."
   },
   {
     "file": "105040.jpg",
-    "title": "The Anatomy Lesson",
-    "artist": "Rembrandt",
-    "year": "1632",
-    "description": "An insightful group portrait of surgeons at work."
-  },
-  {
-    "file": "118050.jpg",
     "title": "The Night Watch",
     "artist": "Rembrandt",
     "year": "1642",
-    "description": "A powerful depiction of civic militia in dynamic composition."
+    "description": "One of the most famous Dutch Golden Age paintings, showing a city guard moving out."
+  },
+  {
+    "file": "118050.jpg",
+    "title": "Children’s Games",
+    "artist": "Pieter Bruegel the Elder",
+    "year": "1560",
+    "description": "A lively painting depicting over 200 children engaged in nearly 80 different games."
   }
 ]
