@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+main {
+  display: flex;
+}
+
+#paintings {
+  width: 25%;
+  background-color: #fff;
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+#paintings ul {
+  list-style: none;
+  padding: 0;
+}
+
+#paintings img {
+  width: 100%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+#paintings img:hover {
+  border-color: #007bff;
+}
+
+#details {
+  width: 75%;
+  padding: 1rem;
+  position: relative;
+}
+
+#details img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.box {
+  position: absolute;
+  border: 2px solid red;
+  pointer-events: auto;
+}
+
+#description {
+  margin-top: 1rem;
+  font-style: italic;
+}
