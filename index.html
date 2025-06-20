@@ -1,160 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Masterpiece Gallery</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      background-color: #f4f4f4;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1rem 0;
-      font-size: 1.8rem;
-    }
-    main {
-      display: flex;
-      gap: 1rem;
-      padding: 1rem;
-    }
-    #gallery {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      overflow-y: scroll;
-      height: 80vh;
-      width: 220px;
-      padding-right: 0.5rem;
-    }
-    #gallery img {
-      width: 100%;
-      border: 2px solid #ccc;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: transform 0.3s;
-    }
-    #gallery img:hover {
-      transform: scale(1.05);
-    }
-    #detail {
-      flex: 1;
-      background: white;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    #detail img {
-      width: 100%;
-      max-height: 500px;
-      object-fit: contain;
-      margin-bottom: 1rem;
-    }
-    h2 {
-      margin: 0.5rem 0;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>Masterpiece Gallery</header>
-  <main>
-    <div id="gallery"></div>
-    <div id="detail">
-      <h2>Select a painting to view details</h2>
+  <header>
+    <h1>Masterpiece Gallery</h1>
+  </header>
+  <div class="container">
+    <div class="thumbnail-gallery" id="thumbnail-gallery"></div>
+    <div class="main-display" id="main-display">
+      <p>Select a painting to view details</p>
     </div>
-  </main>
-
-  <script>
-    const paintings = [
-      {
-        id: "005010",
-        title: "Oath of the Horatii",
-        artist: "Jacques-Louis David",
-        year: "1784",
-        description: "A neoclassical masterpiece portraying loyalty and sacrifice.",
-      },
-      {
-        id: "095010",
-        title: "Primavera",
-        artist: "Sandro Botticelli",
-        year: "1482",
-        description: "A celebration of spring and mythological figures in motion.",
-      },
-      {
-        id: "099160",
-        title: "The School of Athens",
-        artist: "Raphael",
-        year: "1511",
-        description: "A grand depiction of classical philosophers in harmony.",
-      },
-      {
-        id: "100030",
-        title: "Bacchus and Ariadne",
-        artist: "Titian",
-        year: "1523",
-        description: "Dramatic mythological painting celebrating Bacchus rescuing Ariadne.",
-      },
-      {
-        id: "101030",
-        title: "Supper at Emmaus",
-        artist: "Caravaggio",
-        year: "1601",
-        description: "Dramatic moment of Christ's revelation with intense realism.",
-      },
-      {
-        id: "104020",
-        title: "The Surrender of Breda",
-        artist: "Diego Velazquez",
-        year: "1635",
-        description: "Spanish military victory rendered with subtle grace and dignity.",
-      },
-      {
-        id: "105010",
-        title: "The Anatomy Lesson",
-        artist: "Rembrandt",
-        year: "1632",
-        description: "A powerful lesson in light, shadow, and human curiosity.",
-      },
-      {
-        id: "105040",
-        title: "The Night Watch",
-        artist: "Rembrandt",
-        year: "1642",
-        description: "Lively militia group portrait packed with action and mystery.",
-      },
-      {
-        id: "118050",
-        title: "Children's Games",
-        artist: "Pieter Bruegel the Elder",
-        year: "1560",
-        description: "Vibrant and detailed depiction of children at play in a town square.",
-      }
-    ];
-
-    const gallery = document.getElementById('gallery');
-    const detail = document.getElementById('detail');
-
-    paintings.forEach(painting => {
-      const thumb = document.createElement('img');
-      thumb.src = `small/${painting.id}.jpg`;
-      thumb.alt = painting.title;
-      thumb.addEventListener('click', () => showDetail(painting));
-      gallery.appendChild(thumb);
-    });
-
-    function showDetail(painting) {
-      detail.innerHTML = `
-        <img src="large/${painting.id}.jpg" alt="${painting.title}">
-        <h2>${painting.title}</h2>
-        <h3>${painting.artist}, ${painting.year}</h3>
-        <p>${painting.description}</p>
-      `;
-    }
-  </script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
