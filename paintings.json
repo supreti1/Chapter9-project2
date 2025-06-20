@@ -1,65 +1,74 @@
 [
   {
-    "file": "005010.jpg",
+    "id": "005010",
     "title": "Oath of the Horatii",
     "artist": "Jacques-Louis David",
     "year": "1784",
-    "description": "This Neoclassical masterpiece captures a moment of intense patriotism and familial sacrifice as three Roman brothers pledge their loyalty to their father and their city. The rigid composition and dramatic lighting emphasize duty, valor, and stoic masculinity—core ideals of the Enlightenment. The painting is revered for its theatricality and moral clarity, setting a precedent for history painting in France."
+    "description": "A powerful neoclassical painting, 'Oath of the Horatii' depicts three Roman brothers swearing loyalty to their father and the state. The painting conveys themes of sacrifice, duty, and stoicism with dramatic poses and stark lighting. David uses rigid geometry and contrast to emphasize masculine resolve over emotional softness. It is one of the most iconic symbols of civic virtue in Western art.",
+    "medium": "Oil on canvas"
   },
   {
-    "file": "095010.jpg",
+    "id": "095010",
     "title": "Primavera",
     "artist": "Sandro Botticelli",
     "year": "1482",
-    "description": "Primavera is an iconic Renaissance painting, filled with mythological symbolism and allegory. Venus stands in the center as the embodiment of love, surrounded by the Three Graces, Mercury, and other divine figures. The intricate floral landscape and ethereal quality of the figures reflect the humanist ideals and beauty of the Italian Renaissance."
+    "description": "An allegory of spring, Botticelli's 'Primavera' bursts with classical mythological figures dancing amid blooming flora. The central figure of Venus radiates harmony, while Cupid, Mercury, and the Three Graces animate the lush scene. The painting is rich in symbolism related to fertility, renewal, and Neoplatonic ideals. It remains one of the most celebrated works of the Italian Renaissance.",
+    "medium": "Tempera on panel"
   },
   {
-    "file": "099160.jpg",
+    "id": "099160",
     "title": "The School of Athens",
     "artist": "Raphael",
-    "year": "1511",
-    "description": "This grand fresco in the Vatican celebrates classical philosophy and the power of knowledge. Central figures Plato and Aristotle debate their ideas, surrounded by luminaries like Socrates, Pythagoras, and Euclid. Raphael integrates Renaissance perspective and classical architecture, creating a visual harmony that mirrors intellectual dialogue."
+    "year": "1509-1511",
+    "description": "A tribute to classical philosophy, Raphael’s 'The School of Athens' gathers great thinkers like Plato and Aristotle in a grand architectural setting. The figures are arranged in dynamic poses, engaging in lively discourse. The composition reflects Renaissance ideals of harmony, knowledge, and perspective. Raphael's masterful fresco exudes the spirit of humanistic inquiry.",
+    "medium": "Fresco"
   },
   {
-    "file": "100030.jpg",
+    "id": "100030",
     "title": "Bacchus and Ariadne",
     "artist": "Titian",
-    "year": "1523",
-    "description": "Titian’s vibrant oil painting brings myth to life as Bacchus leaps from a chariot toward Ariadne, whom he vows to marry. The painting combines emotional intensity, movement, and rich color—hallmarks of Venetian art. The starry crown Bacchus places above Ariadne alludes to her divine transformation."
+    "year": "1522-1523",
+    "description": "This dynamic mythological painting captures Bacchus leaping from his chariot to rescue Ariadne. The scene brims with energy, color, and sensuality, showing gods and satyrs in celebration. Titian’s use of vibrant pigments and dramatic composition conveys divine love and transformation. The moment marks Ariadne’s ascent to immortality in Roman mythology.",
+    "medium": "Oil on canvas"
   },
   {
-    "file": "101030.jpg",
+    "id": "101030",
     "title": "Supper at Emmaus",
     "artist": "Caravaggio",
     "year": "1601",
-    "description": "Caravaggio captures the dramatic moment Jesus reveals himself to two disciples after his resurrection. Known for his use of chiaroscuro, the artist creates intense contrasts of light and dark to heighten emotional realism. Everyday objects and gestures bring the spiritual into the tangible world."
+    "description": "In his dramatic chiaroscuro style, Caravaggio illustrates the moment Jesus reveals himself to his disciples after resurrection. The painting captures surprise and recognition with striking realism. Caravaggio’s attention to naturalistic detail and emotional intensity enhances the spiritual message. It remains a seminal work in Baroque art history.",
+    "medium": "Oil on canvas"
   },
   {
-    "file": "104020.jpg",
+    "id": "104020",
     "title": "The Surrender of Breda",
     "artist": "Diego Velázquez",
-    "year": "1635",
-    "description": "Velázquez commemorates a Spanish military victory with empathy and realism, depicting the dignified surrender of Dutch forces. The painting balances political propaganda with humane portrayal, highlighting Velázquez’s skill in group composition and his pioneering of psychological depth in portraiture."
+    "year": "1634-1635",
+    "description": "Velázquez captures a rare moment of chivalry and dignity during wartime in 'The Surrender of Breda'. The painting shows the Spanish general receiving keys from the Dutch commander with grace. It is praised for its realism, attention to military detail, and balanced composition. The work underscores Velázquez's mastery of group portraiture and historical narrative.",
+    "medium": "Oil on canvas"
   },
   {
-    "file": "105010.jpg",
+    "id": "105010",
     "title": "The Anatomy Lesson of Dr. Nicolaes Tulp",
     "artist": "Rembrandt",
     "year": "1632",
-    "description": "This group portrait elevates a medical dissection to a philosophical exploration of life and knowledge. Dr. Tulp is shown teaching anatomy, while each onlooker’s face reveals individual curiosity. Rembrandt’s composition and lighting guide the viewer’s eye through both science and society."
+    "description": "This portrait of Amsterdam’s guild of surgeons combines scientific study with human drama. Dr. Tulp demonstrates anatomy to a group of attentive colleagues, emphasizing education and discovery. Rembrandt’s lighting focuses our gaze and heightens the realism of the scene. It reflects the rise of empirical inquiry in the Dutch Golden Age.",
+    "medium": "Oil on canvas"
   },
   {
-    "file": "105040.jpg",
+    "id": "105040",
     "title": "The Night Watch",
     "artist": "Rembrandt",
     "year": "1642",
-    "description": "Contrary to its title, this dynamic scene occurs in daylight and depicts a militia preparing to march. Rembrandt breaks tradition by introducing motion, drama, and hierarchy. The glowing girl in yellow, mysterious and symbolic, adds intrigue to this Dutch Golden Age masterpiece."
+    "description": "A revolutionary group portrait, Rembrandt’s 'The Night Watch' animates a civic militia in a moment of purposeful motion. Unlike static depictions, it shows depth, character, and coordinated energy. Rembrandt’s use of light guides the viewer's eye and adds dramatic flair. The painting is a cornerstone of Dutch Golden Age art.",
+    "medium": "Oil on canvas"
   },
   {
-    "file": "118050.jpg",
-    "title": "Children’s Games",
+    "id": "118050",
+    "title": "Children's Games",
     "artist": "Pieter Bruegel the Elder",
     "year": "1560",
-    "description": "This bustling scene illustrates over 80 traditional children’s games, offering a rich ethnographic snapshot of 16th-century life. Bruegel’s panoramic view and meticulous detail reflect his humanist interest in behavior, play, and community. Each group of children embodies joyful energy and timeless mischief."
+    "description": "This sprawling scene captures over 200 children playing 80 different games in a bustling Flemish town square. Bruegel’s painting reflects his interest in everyday life and social commentary. The detailed figures offer a glimpse into 16th-century customs and amusements. It is both joyful and revealing in its documentation of childhood.",
+    "medium": "Oil on panel"
   }
 ]
